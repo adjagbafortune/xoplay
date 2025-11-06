@@ -1,0 +1,38 @@
+<!-- Le fichier index.html met en place la structure du jeu, y compris le plateau de jeu et les boutons de contrôle. -->
+
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>XOPlay (3x3)</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="msg-container hide">
+      <p id="msg">Gagnant</p>
+      <button id="new-btn">Nouvelle Partie</button>
+    </div>
+    <main>
+      <h1>JEU DU MORPION EN LIGNE <br> XOPlay </h1>
+      <div class="container">
+        <div class="game">
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+        </div>
+      </div>
+      <button id="reset-btn">RÉINITIALISÉ LE JEU</button>
+    </main>
+    <div class="footer">
+      <p>Conçu par Fortuné ADJAGBA</p>
+    </div>
+  </body>
+</html>
